@@ -1,0 +1,8 @@
+node_modules
+*.log
+.env*
+coverage
+.git
+src/test
+*.test.ts
+*.test.tsx

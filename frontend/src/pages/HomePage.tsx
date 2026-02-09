@@ -16,7 +16,7 @@ export default function HomePage() {
   const [error, setError] = useState('')
   
   const { setQuestions, setTopic: saveQuizTopic } = useQuizStore()
-  const { tokensRemaining, hasFreeTrial, freeTrialUsed, setTokenStatus, isLoading } = useTokenStore()
+  const { tokensRemaining, hasFreeTrial, setTokenStatus, isLoading } = useTokenStore()
   
   useEffect(() => {
     loadTokenStatus()

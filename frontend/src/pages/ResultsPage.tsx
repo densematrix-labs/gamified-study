@@ -75,7 +75,7 @@ export default function ResultsPage() {
         <div className="space-y-3">
           {results.results.map((result, i) => {
             const question = questions[i]
-            const userAnswer = answers[question.id]
+            // const userAnswer = answers[question.id]
             
             return (
               <div 
