@@ -8,7 +8,7 @@ export default function ResultsPage() {
   const { t } = useTranslation()
   const navigate = useNavigate()
   
-  const { results, questions, answers, reset } = useQuizStore()
+  const { results, questions, reset } = useQuizStore()
   
   useEffect(() => {
     if (!results) {
