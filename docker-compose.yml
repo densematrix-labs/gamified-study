@@ -1,0 +1,53 @@
+version: '3.8'
+
+services:
+  frontend:
+    build:
+      context: ./frontend
+      dockerfile: Dockerfile
+    ports:
+      - "30055:80"
+    depends_on:
+      - backend
+    networks:
+      - gamified-study-network
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD", "wget", "--no-verbose", "--tries=1", "--spider", "http://127.0.0.1/"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 10s
+
+  backend:
+    build:
+      context: ./backend
+      dockerfile: Dockerfile
+    ports:
+      - "30056:8000"
+    environment:
+      - LLM_PROXY_URL=${LLM_PROXY_URL:-https://llm-proxy.densematrix.ai}
+      - LLM_PROXY_KEY=${LLM_PROXY_KEY}
+      - DATABASE_URL=sqlite:////data/gamified_study.db
+      - CREEM_API_KEY=${CREEM_API_KEY}
+      - CREEM_WEBHOOK_SECRET=${CREEM_WEBHOOK_SECRET}
+      - CREEM_PRODUCT_IDS=${CREEM_PRODUCT_IDS}
+      - TOOL_NAME=gamified-study
+    volumes:
+      - gamified-study-data:/data
+    networks:
+      - gamified-study-network
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD-SHELL", "python -c \"import urllib.request; urllib.request.urlopen('http://localhost:8000/health')\""]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 10s
+
+networks:
+  gamified-study-network:
+    driver: bridge
+
+volumes:
+  gamified-study-data:

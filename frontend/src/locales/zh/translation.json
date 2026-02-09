@@ -1,0 +1,88 @@
+{
+  "app": {
+    "title": "学习探险",
+    "subtitle": "提升你的知识等级"
+  },
+  "nav": {
+    "home": "首页",
+    "progress": "进度",
+    "pricing": "购买"
+  },
+  "home": {
+    "welcome": "输入主题开始学习",
+    "topicPlaceholder": "输入你想学习的主题...",
+    "numQuestions": "题目数量",
+    "difficulty": "难度",
+    "easy": "简单",
+    "medium": "中等",
+    "hard": "困难",
+    "startQuiz": "开始测验",
+    "freeTrialBadge": "免费试用",
+    "tokensRemaining": "剩余 {{count}} 次"
+  },
+  "quiz": {
+    "question": "问题",
+    "of": "/",
+    "submit": "提交答案",
+    "next": "下一题",
+    "finish": "完成测验",
+    "true": "正确",
+    "false": "错误",
+    "fillBlank": "输入你的答案..."
+  },
+  "results": {
+    "title": "测验结果",
+    "score": "得分",
+    "xpEarned": "获得经验",
+    "streak": "连击",
+    "newAchievements": "新成就！",
+    "correct": "正确",
+    "incorrect": "错误",
+    "playAgain": "再来一次",
+    "viewProgress": "查看进度"
+  },
+  "progress": {
+    "title": "你的数据",
+    "level": "等级",
+    "xp": "经验值",
+    "toNextLevel": "距升级还需",
+    "totalQuestions": "总答题数",
+    "accuracy": "正确率",
+    "bestStreak": "最佳连击",
+    "achievements": "成就"
+  },
+  "pricing": {
+    "title": "能量补给",
+    "subtitle": "获取更多测验次数",
+    "freeTrialUsed": "免费试用已用完",
+    "perQuiz": "每次测验",
+    "buy": "立即购买",
+    "popular": "热门",
+    "features": {
+      "aiQuestions": "AI生成题目",
+      "anyTopic": "任意主题",
+      "instantFeedback": "即时反馈",
+      "xpProgress": "经验值与进度追踪"
+    }
+  },
+  "payment": {
+    "success": "支付成功！",
+    "tokensAdded": "已添加 {{count}} 次测验到你的账户",
+    "continue": "继续游戏"
+  },
+  "errors": {
+    "noTokens": "次数用完了！购买更多继续学习。",
+    "somethingWrong": "出错了，请重试。",
+    "loading": "加载中..."
+  },
+  "achievements": {
+    "first_quiz": "迈出第一步",
+    "perfect_score": "满分！",
+    "streak_5": "连击达人",
+    "streak_10": "势不可挡",
+    "level_5": "勤奋学习者",
+    "level_10": "知识探索者",
+    "hundred_questions": "百题斩",
+    "thousand_xp": "经验猎人"
+  }
+}

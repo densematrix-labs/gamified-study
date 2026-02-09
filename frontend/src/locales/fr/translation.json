@@ -1,0 +1,88 @@
+{
+  "app": {
+    "title": "QUÊTE D'ÉTUDE",
+    "subtitle": "Montez de niveau en connaissances"
+  },
+  "nav": {
+    "home": "ACCUEIL",
+    "progress": "PROGRÈS",
+    "pricing": "TARIFS"
+  },
+  "home": {
+    "welcome": "ENTREZ UN SUJET POUR COMMENCER",
+    "topicPlaceholder": "Entrez un sujet à étudier...",
+    "numQuestions": "QUESTIONS",
+    "difficulty": "DIFFICULTÉ",
+    "easy": "FACILE",
+    "medium": "MOYEN",
+    "hard": "DIFFICILE",
+    "startQuiz": "COMMENCER LE QUIZ",
+    "freeTrialBadge": "ESSAI GRATUIT",
+    "tokensRemaining": "{{count}} QUIZ RESTANTS"
+  },
+  "quiz": {
+    "question": "QUESTION",
+    "of": "SUR",
+    "submit": "SOUMETTRE LA RÉPONSE",
+    "next": "SUIVANT",
+    "finish": "TERMINER LE QUIZ",
+    "true": "Vrai",
+    "false": "Faux",
+    "fillBlank": "Tapez votre réponse..."
+  },
+  "results": {
+    "title": "RÉSULTATS",
+    "score": "SCORE",
+    "xpEarned": "XP GAGNÉS",
+    "streak": "SÉRIE",
+    "newAchievements": "NOUVEAUX SUCCÈS!",
+    "correct": "CORRECT",
+    "incorrect": "INCORRECT",
+    "playAgain": "REJOUER",
+    "viewProgress": "VOIR LE PROGRÈS"
+  },
+  "progress": {
+    "title": "VOS STATISTIQUES",
+    "level": "NIVEAU",
+    "xp": "XP",
+    "toNextLevel": "POUR LE NIVEAU SUIVANT",
+    "totalQuestions": "QUESTIONS TOTALES",
+    "accuracy": "PRÉCISION",
+    "bestStreak": "MEILLEURE SÉRIE",
+    "achievements": "SUCCÈS"
+  },
+  "pricing": {
+    "title": "POWER-UPS",
+    "subtitle": "Obtenez plus de générations de quiz",
+    "freeTrialUsed": "Essai gratuit utilisé",
+    "perQuiz": "par quiz",
+    "buy": "ACHETER",
+    "popular": "POPULAIRE",
+    "features": {
+      "aiQuestions": "Questions générées par IA",
+      "anyTopic": "N'importe quel sujet",
+      "instantFeedback": "Retour instantané",
+      "xpProgress": "Suivi XP & progrès"
+    }
+  },
+  "payment": {
+    "success": "PAIEMENT RÉUSSI!",
+    "tokensAdded": "{{count}} quiz ajoutés à votre compte",
+    "continue": "CONTINUER À JOUER"
+  },
+  "errors": {
+    "noTokens": "Plus de quiz! Achetez-en plus pour continuer.",
+    "somethingWrong": "Une erreur s'est produite. Réessayez.",
+    "loading": "CHARGEMENT..."
+  },
+  "achievements": {
+    "first_quiz": "Premiers pas",
+    "perfect_score": "Parfait!",
+    "streak_5": "En feu",
+    "streak_10": "Inarrêtable",
+    "level_5": "Apprenant dévoué",
+    "level_10": "Chercheur de savoir",
+    "hundred_questions": "Centenaire",
+    "thousand_xp": "Chasseur de XP"
+  }
+}

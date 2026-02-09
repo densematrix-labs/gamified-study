@@ -1,0 +1,88 @@
+{
+  "app": {
+    "title": "スタディクエスト",
+    "subtitle": "知識をレベルアップ"
+  },
+  "nav": {
+    "home": "ホーム",
+    "progress": "進捗",
+    "pricing": "購入"
+  },
+  "home": {
+    "welcome": "トピックを入力して開始",
+    "topicPlaceholder": "学びたいトピックを入力...",
+    "numQuestions": "問題数",
+    "difficulty": "難易度",
+    "easy": "簡単",
+    "medium": "普通",
+    "hard": "難しい",
+    "startQuiz": "クイズ開始",
+    "freeTrialBadge": "無料お試し",
+    "tokensRemaining": "残り{{count}}回"
+  },
+  "quiz": {
+    "question": "問題",
+    "of": "/",
+    "submit": "回答を送信",
+    "next": "次へ",
+    "finish": "クイズ終了",
+    "true": "正しい",
+    "false": "間違い",
+    "fillBlank": "答えを入力..."
+  },
+  "results": {
+    "title": "結果",
+    "score": "スコア",
+    "xpEarned": "獲得XP",
+    "streak": "連続正解",
+    "newAchievements": "新しい実績！",
+    "correct": "正解",
+    "incorrect": "不正解",
+    "playAgain": "もう一度",
+    "viewProgress": "進捗を見る"
+  },
+  "progress": {
+    "title": "あなたの統計",
+    "level": "レベル",
+    "xp": "経験値",
+    "toNextLevel": "次のレベルまで",
+    "totalQuestions": "総問題数",
+    "accuracy": "正答率",
+    "bestStreak": "最高連続",
+    "achievements": "実績"
+  },
+  "pricing": {
+    "title": "パワーアップ",
+    "subtitle": "クイズ回数を追加",
+    "freeTrialUsed": "無料お試し使用済み",
+    "perQuiz": "1回あたり",
+    "buy": "購入する",
+    "popular": "人気",
+    "features": {
+      "aiQuestions": "AI生成問題",
+      "anyTopic": "好きなトピック",
+      "instantFeedback": "即時フィードバック",
+      "xpProgress": "XPと進捗追跡"
+    }
+  },
+  "payment": {
+    "success": "支払い完了！",
+    "tokensAdded": "{{count}}回のクイズを追加しました",
+    "continue": "続けてプレイ"
+  },
+  "errors": {
+    "noTokens": "回数切れ！続けるには追加購入を。",
+    "somethingWrong": "エラーが発生しました。再試行してください。",
+    "loading": "読み込み中..."
+  },
+  "achievements": {
+    "first_quiz": "第一歩",
+    "perfect_score": "パーフェクト！",
+    "streak_5": "絶好調",
+    "streak_10": "止められない",
+    "level_5": "熱心な学習者",
+    "level_10": "知識探求者",
+    "hundred_questions": "100問達成",
+    "thousand_xp": "XPハンター"
+  }
+}

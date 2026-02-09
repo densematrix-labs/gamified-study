@@ -1,0 +1,88 @@
+{
+  "app": {
+    "title": "MISIÓN ESTUDIO",
+    "subtitle": "Sube de nivel tu conocimiento"
+  },
+  "nav": {
+    "home": "INICIO",
+    "progress": "PROGRESO",
+    "pricing": "PRECIOS"
+  },
+  "home": {
+    "welcome": "INGRESA UN TEMA PARA EMPEZAR",
+    "topicPlaceholder": "Escribe un tema para estudiar...",
+    "numQuestions": "PREGUNTAS",
+    "difficulty": "DIFICULTAD",
+    "easy": "FÁCIL",
+    "medium": "MEDIO",
+    "hard": "DIFÍCIL",
+    "startQuiz": "INICIAR QUIZ",
+    "freeTrialBadge": "PRUEBA GRATIS",
+    "tokensRemaining": "{{count}} QUIZZES RESTANTES"
+  },
+  "quiz": {
+    "question": "PREGUNTA",
+    "of": "DE",
+    "submit": "ENVIAR RESPUESTA",
+    "next": "SIGUIENTE",
+    "finish": "TERMINAR QUIZ",
+    "true": "Verdadero",
+    "false": "Falso",
+    "fillBlank": "Escribe tu respuesta..."
+  },
+  "results": {
+    "title": "RESULTADOS",
+    "score": "PUNTUACIÓN",
+    "xpEarned": "XP GANADA",
+    "streak": "RACHA",
+    "newAchievements": "¡NUEVOS LOGROS!",
+    "correct": "CORRECTO",
+    "incorrect": "INCORRECTO",
+    "playAgain": "JUGAR DE NUEVO",
+    "viewProgress": "VER PROGRESO"
+  },
+  "progress": {
+    "title": "TUS ESTADÍSTICAS",
+    "level": "NIVEL",
+    "xp": "XP",
+    "toNextLevel": "PARA EL SIGUIENTE NIVEL",
+    "totalQuestions": "PREGUNTAS TOTALES",
+    "accuracy": "PRECISIÓN",
+    "bestStreak": "MEJOR RACHA",
+    "achievements": "LOGROS"
+  },
+  "pricing": {
+    "title": "POTENCIADORES",
+    "subtitle": "Obtén más generaciones de quiz",
+    "freeTrialUsed": "Prueba gratuita usada",
+    "perQuiz": "por quiz",
+    "buy": "COMPRAR AHORA",
+    "popular": "POPULAR",
+    "features": {
+      "aiQuestions": "Preguntas generadas por IA",
+      "anyTopic": "Cualquier tema que quieras",
+      "instantFeedback": "Retroalimentación instantánea",
+      "xpProgress": "Seguimiento de XP y progreso"
+    }
+  },
+  "payment": {
+    "success": "¡PAGO COMPLETADO!",
+    "tokensAdded": "{{count}} quizzes añadidos a tu cuenta",
+    "continue": "SEGUIR JUGANDO"
+  },
+  "errors": {
+    "noTokens": "¡Sin quizzes! Compra más para continuar.",
+    "somethingWrong": "Algo salió mal. Inténtalo de nuevo.",
+    "loading": "CARGANDO..."
+  },
+  "achievements": {
+    "first_quiz": "Primeros pasos",
+    "perfect_score": "¡Perfecto!",
+    "streak_5": "En llamas",
+    "streak_10": "Imparable",
+    "level_5": "Estudiante dedicado",
+    "level_10": "Buscador de conocimiento",
+    "hundred_questions": "Centenario",
+    "thousand_xp": "Cazador de XP"
+  }
+}

@@ -1,0 +1,88 @@
+{
+  "app": {
+    "title": "STUDY QUEST",
+    "subtitle": "Level Up Your Knowledge"
+  },
+  "nav": {
+    "home": "HOME",
+    "progress": "PROGRESS",
+    "pricing": "PRICING"
+  },
+  "home": {
+    "welcome": "INSERT TOPIC TO START",
+    "topicPlaceholder": "Enter a topic to study...",
+    "numQuestions": "QUESTIONS",
+    "difficulty": "DIFFICULTY",
+    "easy": "EASY",
+    "medium": "MEDIUM",
+    "hard": "HARD",
+    "startQuiz": "START QUIZ",
+    "freeTrialBadge": "FREE TRIAL",
+    "tokensRemaining": "{{count}} QUIZZES LEFT"
+  },
+  "quiz": {
+    "question": "QUESTION",
+    "of": "OF",
+    "submit": "SUBMIT ANSWER",
+    "next": "NEXT",
+    "finish": "FINISH QUIZ",
+    "true": "True",
+    "false": "False",
+    "fillBlank": "Type your answer..."
+  },
+  "results": {
+    "title": "RESULTS",
+    "score": "SCORE",
+    "xpEarned": "XP EARNED",
+    "streak": "STREAK",
+    "newAchievements": "NEW ACHIEVEMENTS!",
+    "correct": "CORRECT",
+    "incorrect": "INCORRECT",
+    "playAgain": "PLAY AGAIN",
+    "viewProgress": "VIEW PROGRESS"
+  },
+  "progress": {
+    "title": "YOUR STATS",
+    "level": "LEVEL",
+    "xp": "XP",
+    "toNextLevel": "TO NEXT LEVEL",
+    "totalQuestions": "TOTAL QUESTIONS",
+    "accuracy": "ACCURACY",
+    "bestStreak": "BEST STREAK",
+    "achievements": "ACHIEVEMENTS"
+  },
+  "pricing": {
+    "title": "POWER UPS",
+    "subtitle": "Get more quiz generations",
+    "freeTrialUsed": "Free trial used",
+    "perQuiz": "per quiz",
+    "buy": "BUY NOW",
+    "popular": "POPULAR",
+    "features": {
+      "aiQuestions": "AI-generated questions",
+      "anyTopic": "Any topic you want",
+      "instantFeedback": "Instant feedback",
+      "xpProgress": "XP & progress tracking"
+    }
+  },
+  "payment": {
+    "success": "PAYMENT COMPLETE!",
+    "tokensAdded": "{{count}} quizzes added to your account",
+    "continue": "CONTINUE PLAYING"
+  },
+  "errors": {
+    "noTokens": "Out of quizzes! Get more to continue.",
+    "somethingWrong": "Something went wrong. Try again.",
+    "loading": "LOADING..."
+  },
+  "achievements": {
+    "first_quiz": "First Steps",
+    "perfect_score": "Perfect!",
+    "streak_5": "On Fire",
+    "streak_10": "Unstoppable",
+    "level_5": "Dedicated Learner",
+    "level_10": "Knowledge Seeker",
+    "hundred_questions": "Century",
+    "thousand_xp": "XP Hunter"
+  }
+}

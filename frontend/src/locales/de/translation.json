@@ -1,0 +1,88 @@
+{
+  "app": {
+    "title": "LERNQUEST",
+    "subtitle": "Steigere dein Wissen"
+  },
+  "nav": {
+    "home": "START",
+    "progress": "FORTSCHRITT",
+    "pricing": "PREISE"
+  },
+  "home": {
+    "welcome": "THEMA EINGEBEN ZUM STARTEN",
+    "topicPlaceholder": "Gib ein Thema zum Lernen ein...",
+    "numQuestions": "FRAGEN",
+    "difficulty": "SCHWIERIGKEIT",
+    "easy": "EINFACH",
+    "medium": "MITTEL",
+    "hard": "SCHWER",
+    "startQuiz": "QUIZ STARTEN",
+    "freeTrialBadge": "KOSTENLOS TESTEN",
+    "tokensRemaining": "{{count}} QUIZZE ÜBRIG"
+  },
+  "quiz": {
+    "question": "FRAGE",
+    "of": "VON",
+    "submit": "ANTWORT ABGEBEN",
+    "next": "WEITER",
+    "finish": "QUIZ BEENDEN",
+    "true": "Richtig",
+    "false": "Falsch",
+    "fillBlank": "Deine Antwort eingeben..."
+  },
+  "results": {
+    "title": "ERGEBNISSE",
+    "score": "PUNKTE",
+    "xpEarned": "XP VERDIENT",
+    "streak": "SERIE",
+    "newAchievements": "NEUE ERFOLGE!",
+    "correct": "RICHTIG",
+    "incorrect": "FALSCH",
+    "playAgain": "NOCHMAL SPIELEN",
+    "viewProgress": "FORTSCHRITT ANSEHEN"
+  },
+  "progress": {
+    "title": "DEINE STATISTIK",
+    "level": "LEVEL",
+    "xp": "XP",
+    "toNextLevel": "BIS ZUM NÄCHSTEN LEVEL",
+    "totalQuestions": "GESAMTE FRAGEN",
+    "accuracy": "GENAUIGKEIT",
+    "bestStreak": "BESTE SERIE",
+    "achievements": "ERFOLGE"
+  },
+  "pricing": {
+    "title": "POWER-UPS",
+    "subtitle": "Mehr Quiz-Durchgänge erhalten",
+    "freeTrialUsed": "Kostenlose Testversion verwendet",
+    "perQuiz": "pro Quiz",
+    "buy": "JETZT KAUFEN",
+    "popular": "BELIEBT",
+    "features": {
+      "aiQuestions": "KI-generierte Fragen",
+      "anyTopic": "Jedes gewünschte Thema",
+      "instantFeedback": "Sofortiges Feedback",
+      "xpProgress": "XP- & Fortschrittsverfolgung"
+    }
+  },
+  "payment": {
+    "success": "ZAHLUNG ABGESCHLOSSEN!",
+    "tokensAdded": "{{count}} Quizze zu deinem Konto hinzugefügt",
+    "continue": "WEITERSPIELEN"
+  },
+  "errors": {
+    "noTokens": "Keine Quizze mehr! Kaufe mehr zum Weiterspielen.",
+    "somethingWrong": "Etwas ist schiefgelaufen. Versuche es erneut.",
+    "loading": "LADEN..."
+  },
+  "achievements": {
+    "first_quiz": "Erste Schritte",
+    "perfect_score": "Perfekt!",
+    "streak_5": "In Flammen",
+    "streak_10": "Unaufhaltbar",
+    "level_5": "Engagierter Lerner",
+    "level_10": "Wissenssuchender",
+    "hundred_questions": "Jahrhundert",
+    "thousand_xp": "XP-Jäger"
+  }
+}

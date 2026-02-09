@@ -1,0 +1,88 @@
+{
+  "app": {
+    "title": "스터디 퀘스트",
+    "subtitle": "지식 레벨업"
+  },
+  "nav": {
+    "home": "홈",
+    "progress": "진행상황",
+    "pricing": "가격"
+  },
+  "home": {
+    "welcome": "주제를 입력하여 시작",
+    "topicPlaceholder": "공부할 주제를 입력하세요...",
+    "numQuestions": "문제 수",
+    "difficulty": "난이도",
+    "easy": "쉬움",
+    "medium": "보통",
+    "hard": "어려움",
+    "startQuiz": "퀴즈 시작",
+    "freeTrialBadge": "무료 체험",
+    "tokensRemaining": "{{count}}회 남음"
+  },
+  "quiz": {
+    "question": "문제",
+    "of": "/",
+    "submit": "답 제출",
+    "next": "다음",
+    "finish": "퀴즈 완료",
+    "true": "참",
+    "false": "거짓",
+    "fillBlank": "답을 입력하세요..."
+  },
+  "results": {
+    "title": "결과",
+    "score": "점수",
+    "xpEarned": "획득 XP",
+    "streak": "연속 정답",
+    "newAchievements": "새로운 업적!",
+    "correct": "정답",
+    "incorrect": "오답",
+    "playAgain": "다시 하기",
+    "viewProgress": "진행상황 보기"
+  },
+  "progress": {
+    "title": "내 통계",
+    "level": "레벨",
+    "xp": "경험치",
+    "toNextLevel": "다음 레벨까지",
+    "totalQuestions": "총 문제 수",
+    "accuracy": "정확도",
+    "bestStreak": "최고 연속",
+    "achievements": "업적"
+  },
+  "pricing": {
+    "title": "파워업",
+    "subtitle": "더 많은 퀴즈 생성 받기",
+    "freeTrialUsed": "무료 체험 사용됨",
+    "perQuiz": "퀴즈당",
+    "buy": "구매하기",
+    "popular": "인기",
+    "features": {
+      "aiQuestions": "AI 생성 문제",
+      "anyTopic": "원하는 주제",
+      "instantFeedback": "즉각적인 피드백",
+      "xpProgress": "XP 및 진행 추적"
+    }
+  },
+  "payment": {
+    "success": "결제 완료!",
+    "tokensAdded": "{{count}}개 퀴즈가 계정에 추가됨",
+    "continue": "계속 플레이"
+  },
+  "errors": {
+    "noTokens": "퀴즈가 없습니다! 더 구매하세요.",
+    "somethingWrong": "문제가 발생했습니다. 다시 시도하세요.",
+    "loading": "로딩 중..."
+  },
+  "achievements": {
+    "first_quiz": "첫 걸음",
+    "perfect_score": "완벽!",
+    "streak_5": "불타오르다",
+    "streak_10": "멈출 수 없어",
+    "level_5": "열정적인 학습자",
+    "level_10": "지식 탐구자",
+    "hundred_questions": "100문제 달성",
+    "thousand_xp": "XP 헌터"
+  }
+}
