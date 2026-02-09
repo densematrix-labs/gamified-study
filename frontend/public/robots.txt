@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://gamified-study.demo.densematrix.ai/sitemap.xml
